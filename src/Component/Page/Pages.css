@@ -1,0 +1,108 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top:40px;
+}
+
+.left-div{
+    width:30%;
+    margin-top:5%;
+}
+
+.inner-span{
+    margin-bottom:-10px;
+}
+
+h2{
+    color: blueviolet;
+    margin-bottom:-10px;
+}
+
+.right-div{
+    width:30%;
+    transition:transform 1s ease-in-out;
+}
+
+.btn-div{
+    text-align: center;
+}
+
+.btn{
+width:50%;
+padding:8px;
+border: none;
+border-radius:8px;
+cursor: pointer;
+background-color: blueviolet;
+color: #fff;
+margin-bottom: 10px;
+}
+.btn:hover{
+    background-color: green;
+}
+
+.right-img{
+    width:400px;
+    animation: Jump 5s infinite;
+}
+
+@keyframes Jump{
+    0%,100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(50px);
+        background-color: blue;
+    }
+}
+
+/* Services Paage */
+
+
+.services-container{
+    margin-top:10%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(246, 246, 246);
+    padding: 30px;
+}
+
+.delievery{
+    background-color:rgb(179, 236, 255);
+    color:blueviolet;
+    border-radius: 10px;
+    font-weight:500;
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+    padding: 40px;
+}
+.shipping{
+    background-color: rgb(179, 236, 255);
+    color:blueviolet;
+    border-radius: 10px;
+    padding:40px;
+    font-weight:500;
+    cursor: pointer;
+    margin-left: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+.payment{
+    background-color: rgb(179, 236, 255);
+    color:blueviolet;
+    border-radius: 10px;
+    padding:40px;
+    width:150px;
+    font-weight:500;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.delievery:hover,.shipping:hover ,.payment:hover{
+    background-color: #1B98F5;
+    transition: all 1s ease;
+}
