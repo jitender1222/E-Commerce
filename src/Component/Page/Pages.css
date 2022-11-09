@@ -106,3 +106,33 @@ margin-bottom: 10px;
     background-color: #1B98F5;
     transition: all 1s ease;
 }
+
+
+/* Footer Section */
+
+.container{
+    background-color: #120E43;
+    margin-top:10%;
+}
+.semi-outer{
+    background-color: #CAD5E2;
+    display: flex;
+    width: 50%;
+    text-align: center;
+    justify-content:space-between;
+    position: relative;
+    bottom: 30px;
+    border-radius:10px;
+}
+.semi-outer>p{
+    font-size:15px;
+    padding-left: 10px;
+    font-weight: 500;
+}
+.footer-btn{
+    width:20%;
+    margin: 10px;
+    font-weight: bold;
+    font-size:15px;
+}
+
