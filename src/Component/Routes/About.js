@@ -1,3 +1,4 @@
+import Footer from "../Page/Footer";
 import HomePage from "../Page/HomePage";
 import Services from "../Page/Services";
 import Trusted from "../Page/Trusted";
@@ -11,6 +12,7 @@ const About=()=>{
             <Services />
             <Trusted />
             <Contact />
+            <Footer />
         </div>
     )
 }
